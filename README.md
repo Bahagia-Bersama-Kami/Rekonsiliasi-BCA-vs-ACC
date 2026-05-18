@@ -9,8 +9,8 @@ Program bekerja dengan mengambil dua sumber data utama yaitu laporan akuntansi (
 Untuk menjalankan program ini, pastikan struktur direktori Anda adalah sebagai berikut:
 
 - Jalankan Rekonsiliasi.py (Skrip utama untuk menjalankan seluruh alur)
-- Acc.xls (File input data akuntansi)
-- Bca.xlsx (File input data mutasi bank)
+- Acc.xls (File input data akuntansi) --> Kas & Bank --> Buku Bank --> Print --> Centang Fast Export
+- Bca.xlsx (File input data mutasi bank) --> Letakkan file mutasi dengan awalan BCA ... (Misalnya BCA 5444 1 MEI 26, dst)
 - Dapur/ (Folder sistem pendukung)
     - 1_AccCleaner.py (Pembersih data akuntansi)
     - 2_BcaCleaner.py (Pembersih data bank)
